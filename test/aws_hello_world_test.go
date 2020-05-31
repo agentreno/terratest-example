@@ -10,7 +10,7 @@ import (
 
 func TestWebServer(t *testing.T) {
   terraformOptions := &terraform.Options {
-    TerraformDir: "../examples",
+    TerraformDir: "../examples/aws_hello_world",
   }
 
   // At the end of the test, run `terraform destroy`
