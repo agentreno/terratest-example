@@ -22,7 +22,7 @@ resource "aws_db_instance" "default" {
   instance_class = "db.t3.medium"
   multi_az = false
   name = "rdstesting"
-  skip_final_snapshot = false
+  skip_final_snapshot = true
   storage_encrypted = true
   storage_type = "gp2"
   username = "postgres"
